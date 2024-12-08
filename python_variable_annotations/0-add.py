@@ -2,6 +2,9 @@
 import typing
 """
 This module contains `add(float, float) -> float` with type annotation
+doc
+doc
+doc
 """
 
 
