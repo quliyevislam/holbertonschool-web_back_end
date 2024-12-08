@@ -4,9 +4,10 @@ import random
 
 """
 This module defines an asynchronous coroutine `wait_random` that simulates
-a random delay. The function waits for a random amount of time between 0 and 
+a random delay. The function waits for a random amount of time between 0 and
 `max_delay` seconds (inclusive), and then returns the delay.
 """
+
 
 async def wait_random(max_delay: int = 10) -> float:
     """
@@ -19,6 +20,6 @@ async def wait_random(max_delay: int = 10) -> float:
     Returns:
     float: A random delay between 0 and `max_delay` seconds.
     """
-    delay = random.uniform(0, max_delay)  # Generate a random float between 0 and max_delay
-    await asyncio.sleep(delay)  # Asynchronously sleep for the random delay
+    delay = random.uniform(0, max_delay)
+    await asyncio.sleep(delay)
     return delay
