@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import typing
-"""This module contains add() with type annotation"""
+"""
+This module contains `add(float, float) -> float` with type annotation
+"""
 
 
 def add(a: float, b: float) -> float:
