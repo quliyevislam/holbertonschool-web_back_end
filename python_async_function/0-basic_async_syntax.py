@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-import asyncio
-import random
-
 """
 This module defines an asynchronous coroutine `wait_random` that simulates
 a random delay. The function waits for a random amount of time between 0 and
 `max_delay` seconds (inclusive), and then returns the delay.
 """
+import asyncio
+import random
 
 
 async def wait_random(max_delay: int = 10) -> float:
