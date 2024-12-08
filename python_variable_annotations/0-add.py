@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import typing
 """
-    This module with typing Python that contains `add(float, float) -> float` with type annotation.
+    This module with typing Python
+    that contains `add(float, float) -> float` with type annotation.
 """
 
 
