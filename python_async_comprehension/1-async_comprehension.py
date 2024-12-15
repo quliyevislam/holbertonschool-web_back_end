@@ -12,7 +12,8 @@ async def async_comprehension() -> List[float]:
 
        It iterates over values produced by the `async_generator()`
        and appends them to a list.
-
+        args:
+            void
        Returns:
            List[float]: A list of float values from the async generator.
        """
