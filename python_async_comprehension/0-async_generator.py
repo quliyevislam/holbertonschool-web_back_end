@@ -2,9 +2,9 @@
 """This module contains async_generator() function"""
 import asyncio
 import random
+from typing import Generator
 
-
-async def async_generator():
+async def async_generator() -> Generator[float, None, None]:
     """
     Generates random values between 0 and 10
     """
